@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+
+# Environments and local settings
+.venv/
+venv/
+.env
+
+# OS/editor clutter and logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Uncomment if model artifacts should not be versioned (some may be large)
+# resultados/modelos/
+# resultados/modelos_finales/
