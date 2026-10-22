@@ -1,0 +1,18 @@
+DECISION DE MODELOS FINALES (criterio: R2 de CV + tiempo de computo)
+============================================================
+
+MODELO INTERPRETABLE
+  Familia: LightGBM
+  Features: 13 (consenso >= 3/4 familias, notebook 03)
+  R2(CV): 0.8273
+  Razon: gana el más rápido: diferencia de R² (0.0034) menor que 1 SD de CV del más lento (0.0066)
+
+MODELO DE POTENCIA BRUTA
+  Familia: LightGBM
+  Features: 29 (k optimo propio de LightGBM, notebook 03)
+  R2(CV): 0.8502
+  Razon: gana el más rápido: diferencia de R² (-0.0024) menor que 1 SD de CV del más lento (0.0067)
+
+Ninguna decision se tomo mirando la validacion externa (Delaney)
+ese se reservan para el notebook 07, con fines
+exclusivamente de reporte.

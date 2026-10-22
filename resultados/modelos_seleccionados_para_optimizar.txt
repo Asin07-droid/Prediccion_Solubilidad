@@ -1,0 +1,7 @@
+Modelos seleccionados por R2 de validacion interna: ['XGBoost', 'LightGBM']
+
+       modelo  r2_prueba_interna  r2_validacion_interna  mae_validacion_interna  rmse_validacion_interna  sobreajuste
+      XGBoost           0.822814               0.807980                0.734062                 1.056280     0.142527
+     LightGBM           0.819850               0.801985                0.753046                 1.072642     0.108273
+Random Forest           0.805426               0.790795                0.788621                 1.102534     0.093531
+        Ridge           0.661747               0.642692                1.066958                 1.440877    -0.003349

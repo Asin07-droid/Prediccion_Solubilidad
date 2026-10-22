@@ -1,0 +1,465 @@
+feature,frecuencia_folds,frecuencia_topk,modelo
+AvgIpc,5,5,Ridge
+BCUT2D_CHGHI,5,5,Ridge
+BCUT2D_CHGLO,5,5,Ridge
+FpDensityMorgan2,5,5,Ridge
+FpDensityMorgan3,5,5,Ridge
+HallKierAlpha,5,5,Ridge
+NumHAcceptors,5,5,Ridge
+NumHeteroatoms,5,5,Ridge
+NumRotatableBonds,5,5,Ridge
+SMR_VSA7,5,5,Ridge
+SlogP_VSA2,5,5,Ridge
+VSA_EState1,5,5,Ridge
+VSA_EState2,5,5,Ridge
+VSA_EState3,5,5,Ridge
+VSA_EState6,5,5,Ridge
+VSA_EState7,5,5,Ridge
+VSA_EState8,5,5,Ridge
+SlogP_VSA12,5,4,Ridge
+VSA_EState4,5,4,Ridge
+Chi2n,4,4,Ridge
+NOCount,4,4,Ridge
+EState_VSA9,5,3,Ridge
+NumAromaticRings,5,3,Ridge
+SMR_VSA10,5,3,Ridge
+SlogP_VSA3,5,3,Ridge
+SlogP_VSA5,5,3,Ridge
+Chi3v,4,3,Ridge
+Chi1v,3,3,Ridge
+MolWt,3,3,Ridge
+BertzCT,5,2,Ridge
+NumAromaticCarbocycles,5,2,Ridge
+PEOE_VSA6,5,2,Ridge
+SMR_VSA1,5,2,Ridge
+SMR_VSA5,4,2,Ridge
+Chi4n,5,1,Ridge
+EState_VSA10,5,1,Ridge
+EState_VSA5,5,1,Ridge
+EState_VSA8,5,1,Ridge
+Kappa1,5,1,Ridge
+PEOE_VSA1,5,1,Ridge
+PEOE_VSA14,5,1,Ridge
+SMR_VSA3,5,1,Ridge
+SlogP_VSA10,5,1,Ridge
+SlogP_VSA11,5,1,Ridge
+SlogP_VSA8,5,1,Ridge
+VSA_EState5,5,1,Ridge
+MaxAbsPartialCharge,3,1,Ridge
+MinPartialCharge,2,1,Ridge
+Chi1n,1,1,Ridge
+Chi2v,1,1,Ridge
+ExactMolWt,1,1,Ridge
+HeavyAtomMolWt,1,1,Ridge
+MolMR,1,1,Ridge
+TPSA,1,1,Ridge
+BCUT2D_LOGPHI,5,0,Ridge
+BCUT2D_LOGPLOW,5,0,Ridge
+BCUT2D_MRHI,5,0,Ridge
+BCUT2D_MRLOW,5,0,Ridge
+BCUT2D_MWHI,5,0,Ridge
+BCUT2D_MWLOW,5,0,Ridge
+BalabanJ,5,0,Ridge
+EState_VSA1,5,0,Ridge
+EState_VSA2,5,0,Ridge
+EState_VSA3,5,0,Ridge
+EState_VSA4,5,0,Ridge
+EState_VSA6,5,0,Ridge
+EState_VSA7,5,0,Ridge
+FpDensityMorgan1,5,0,Ridge
+FractionCSP3,5,0,Ridge
+Kappa2,5,0,Ridge
+Kappa3,5,0,Ridge
+MaxPartialCharge,5,0,Ridge
+MinAbsEStateIndex,5,0,Ridge
+MinAbsPartialCharge,5,0,Ridge
+MinEStateIndex,5,0,Ridge
+MolLogP,5,0,Ridge
+NumAliphaticCarbocycles,5,0,Ridge
+NumAliphaticRings,5,0,Ridge
+NumAromaticHeterocycles,5,0,Ridge
+NumSaturatedCarbocycles,5,0,Ridge
+NumSaturatedHeterocycles,5,0,Ridge
+NumSaturatedRings,5,0,Ridge
+PEOE_VSA10,5,0,Ridge
+PEOE_VSA11,5,0,Ridge
+PEOE_VSA12,5,0,Ridge
+PEOE_VSA13,5,0,Ridge
+PEOE_VSA2,5,0,Ridge
+PEOE_VSA3,5,0,Ridge
+PEOE_VSA4,5,0,Ridge
+PEOE_VSA5,5,0,Ridge
+PEOE_VSA7,5,0,Ridge
+PEOE_VSA8,5,0,Ridge
+PEOE_VSA9,5,0,Ridge
+RingCount,5,0,Ridge
+SMR_VSA4,5,0,Ridge
+SMR_VSA6,5,0,Ridge
+SMR_VSA9,5,0,Ridge
+SPS,5,0,Ridge
+SlogP_VSA1,5,0,Ridge
+SlogP_VSA4,5,0,Ridge
+SlogP_VSA7,5,0,Ridge
+VSA_EState10,5,0,Ridge
+VSA_EState9,5,0,Ridge
+qed,5,0,Ridge
+EState_VSA11,4,0,Ridge
+MaxAbsEStateIndex,4,0,Ridge
+NumHDonors,4,0,Ridge
+NumRadicalElectrons,3,0,Ridge
+SMR_VSA2,3,0,Ridge
+SMR_VSA8,3,0,Ridge
+SlogP_VSA9,3,0,Ridge
+NumAliphaticHeterocycles,2,0,Ridge
+Chi4v,1,0,Ridge
+MaxEStateIndex,1,0,Ridge
+NHOHCount,1,0,Ridge
+SlogP_VSA6,1,0,Ridge
+AvgIpc,5,5,Random Forest
+BCUT2D_LOGPHI,5,5,Random Forest
+BertzCT,5,5,Random Forest
+Chi4n,5,5,Random Forest
+FpDensityMorgan1,5,5,Random Forest
+HallKierAlpha,5,5,Random Forest
+Kappa1,5,5,Random Forest
+MolLogP,5,5,Random Forest
+NumAromaticCarbocycles,5,5,Random Forest
+NumAromaticRings,5,5,Random Forest
+PEOE_VSA6,5,5,Random Forest
+SMR_VSA7,5,5,Random Forest
+SlogP_VSA2,5,5,Random Forest
+SlogP_VSA5,5,5,Random Forest
+VSA_EState10,5,5,Random Forest
+BCUT2D_MWLOW,5,4,Random Forest
+PEOE_VSA1,5,4,Random Forest
+SMR_VSA10,5,4,Random Forest
+Chi2n,4,4,Random Forest
+Chi3v,4,4,Random Forest
+EState_VSA9,5,3,Random Forest
+FpDensityMorgan2,5,3,Random Forest
+PEOE_VSA7,5,3,Random Forest
+SlogP_VSA12,5,3,Random Forest
+Chi1v,3,3,Random Forest
+MaxAbsPartialCharge,3,3,Random Forest
+MolWt,3,3,Random Forest
+SlogP_VSA7,5,2,Random Forest
+MinPartialCharge,2,2,Random Forest
+BCUT2D_MWHI,5,1,Random Forest
+EState_VSA3,5,1,Random Forest
+SMR_VSA5,4,1,Random Forest
+Chi1n,1,1,Random Forest
+Chi2v,1,1,Random Forest
+Chi4v,1,1,Random Forest
+ExactMolWt,1,1,Random Forest
+HeavyAtomMolWt,1,1,Random Forest
+MolMR,1,1,Random Forest
+TPSA,1,1,Random Forest
+BCUT2D_CHGHI,5,0,Random Forest
+BCUT2D_CHGLO,5,0,Random Forest
+BCUT2D_LOGPLOW,5,0,Random Forest
+BCUT2D_MRHI,5,0,Random Forest
+BCUT2D_MRLOW,5,0,Random Forest
+BalabanJ,5,0,Random Forest
+EState_VSA1,5,0,Random Forest
+EState_VSA10,5,0,Random Forest
+EState_VSA2,5,0,Random Forest
+EState_VSA4,5,0,Random Forest
+EState_VSA5,5,0,Random Forest
+EState_VSA6,5,0,Random Forest
+EState_VSA7,5,0,Random Forest
+EState_VSA8,5,0,Random Forest
+FpDensityMorgan3,5,0,Random Forest
+FractionCSP3,5,0,Random Forest
+Kappa2,5,0,Random Forest
+Kappa3,5,0,Random Forest
+MaxPartialCharge,5,0,Random Forest
+MinAbsEStateIndex,5,0,Random Forest
+MinAbsPartialCharge,5,0,Random Forest
+MinEStateIndex,5,0,Random Forest
+NumAliphaticCarbocycles,5,0,Random Forest
+NumAliphaticRings,5,0,Random Forest
+NumAromaticHeterocycles,5,0,Random Forest
+NumHAcceptors,5,0,Random Forest
+NumHeteroatoms,5,0,Random Forest
+NumRotatableBonds,5,0,Random Forest
+NumSaturatedCarbocycles,5,0,Random Forest
+NumSaturatedHeterocycles,5,0,Random Forest
+NumSaturatedRings,5,0,Random Forest
+PEOE_VSA10,5,0,Random Forest
+PEOE_VSA11,5,0,Random Forest
+PEOE_VSA12,5,0,Random Forest
+PEOE_VSA13,5,0,Random Forest
+PEOE_VSA14,5,0,Random Forest
+PEOE_VSA2,5,0,Random Forest
+PEOE_VSA3,5,0,Random Forest
+PEOE_VSA4,5,0,Random Forest
+PEOE_VSA5,5,0,Random Forest
+PEOE_VSA8,5,0,Random Forest
+PEOE_VSA9,5,0,Random Forest
+RingCount,5,0,Random Forest
+SMR_VSA1,5,0,Random Forest
+SMR_VSA3,5,0,Random Forest
+SMR_VSA4,5,0,Random Forest
+SMR_VSA6,5,0,Random Forest
+SMR_VSA9,5,0,Random Forest
+SPS,5,0,Random Forest
+SlogP_VSA1,5,0,Random Forest
+SlogP_VSA10,5,0,Random Forest
+SlogP_VSA11,5,0,Random Forest
+SlogP_VSA3,5,0,Random Forest
+SlogP_VSA4,5,0,Random Forest
+SlogP_VSA8,5,0,Random Forest
+VSA_EState1,5,0,Random Forest
+VSA_EState2,5,0,Random Forest
+VSA_EState3,5,0,Random Forest
+VSA_EState4,5,0,Random Forest
+VSA_EState5,5,0,Random Forest
+VSA_EState6,5,0,Random Forest
+VSA_EState7,5,0,Random Forest
+VSA_EState8,5,0,Random Forest
+VSA_EState9,5,0,Random Forest
+qed,5,0,Random Forest
+EState_VSA11,4,0,Random Forest
+MaxAbsEStateIndex,4,0,Random Forest
+NOCount,4,0,Random Forest
+NumHDonors,4,0,Random Forest
+NumRadicalElectrons,3,0,Random Forest
+SMR_VSA2,3,0,Random Forest
+SMR_VSA8,3,0,Random Forest
+SlogP_VSA9,3,0,Random Forest
+NumAliphaticHeterocycles,2,0,Random Forest
+MaxEStateIndex,1,0,Random Forest
+NHOHCount,1,0,Random Forest
+SlogP_VSA6,1,0,Random Forest
+BalabanJ,5,5,XGBoost
+BertzCT,5,5,XGBoost
+HallKierAlpha,5,5,XGBoost
+MolLogP,5,5,XGBoost
+PEOE_VSA4,5,5,XGBoost
+PEOE_VSA6,5,5,XGBoost
+SMR_VSA10,5,5,XGBoost
+SMR_VSA3,5,5,XGBoost
+SlogP_VSA2,5,5,XGBoost
+SlogP_VSA7,5,5,XGBoost
+VSA_EState10,5,5,XGBoost
+VSA_EState2,5,5,XGBoost
+VSA_EState9,5,5,XGBoost
+BCUT2D_MRLOW,5,4,XGBoost
+Chi4n,5,4,XGBoost
+EState_VSA10,5,4,XGBoost
+MinEStateIndex,5,4,XGBoost
+NumAliphaticCarbocycles,5,4,XGBoost
+NumHAcceptors,5,4,XGBoost
+NumHeteroatoms,5,4,XGBoost
+NumRotatableBonds,5,4,XGBoost
+PEOE_VSA1,5,4,XGBoost
+PEOE_VSA2,5,4,XGBoost
+SMR_VSA7,5,4,XGBoost
+SlogP_VSA12,5,4,XGBoost
+NOCount,4,4,XGBoost
+NumHDonors,4,4,XGBoost
+BCUT2D_MRHI,5,3,XGBoost
+FractionCSP3,5,3,XGBoost
+Kappa3,5,3,XGBoost
+NumAromaticCarbocycles,5,3,XGBoost
+SlogP_VSA5,5,3,XGBoost
+SlogP_VSA8,5,3,XGBoost
+Chi2n,4,3,XGBoost
+MaxAbsPartialCharge,3,3,XGBoost
+MolWt,3,3,XGBoost
+NumRadicalElectrons,3,3,XGBoost
+EState_VSA1,5,2,XGBoost
+EState_VSA4,5,2,XGBoost
+EState_VSA8,5,2,XGBoost
+FpDensityMorgan1,5,2,XGBoost
+PEOE_VSA7,5,2,XGBoost
+SMR_VSA1,5,2,XGBoost
+SMR_VSA6,5,2,XGBoost
+SlogP_VSA11,5,2,XGBoost
+SlogP_VSA4,5,2,XGBoost
+Chi3v,4,2,XGBoost
+Chi1v,3,2,XGBoost
+MinPartialCharge,2,2,XGBoost
+AvgIpc,5,1,XGBoost
+BCUT2D_CHGHI,5,1,XGBoost
+BCUT2D_LOGPHI,5,1,XGBoost
+BCUT2D_MWHI,5,1,XGBoost
+BCUT2D_MWLOW,5,1,XGBoost
+EState_VSA7,5,1,XGBoost
+EState_VSA9,5,1,XGBoost
+Kappa1,5,1,XGBoost
+MaxPartialCharge,5,1,XGBoost
+NumAliphaticRings,5,1,XGBoost
+NumAromaticHeterocycles,5,1,XGBoost
+NumSaturatedRings,5,1,XGBoost
+PEOE_VSA10,5,1,XGBoost
+PEOE_VSA11,5,1,XGBoost
+PEOE_VSA12,5,1,XGBoost
+PEOE_VSA13,5,1,XGBoost
+PEOE_VSA14,5,1,XGBoost
+PEOE_VSA8,5,1,XGBoost
+RingCount,5,1,XGBoost
+SMR_VSA9,5,1,XGBoost
+SlogP_VSA1,5,1,XGBoost
+SlogP_VSA10,5,1,XGBoost
+VSA_EState1,5,1,XGBoost
+qed,5,1,XGBoost
+SMR_VSA5,4,1,XGBoost
+ExactMolWt,1,1,XGBoost
+HeavyAtomMolWt,1,1,XGBoost
+MolMR,1,1,XGBoost
+NHOHCount,1,1,XGBoost
+TPSA,1,1,XGBoost
+BCUT2D_CHGLO,5,0,XGBoost
+BCUT2D_LOGPLOW,5,0,XGBoost
+EState_VSA2,5,0,XGBoost
+EState_VSA3,5,0,XGBoost
+EState_VSA5,5,0,XGBoost
+EState_VSA6,5,0,XGBoost
+FpDensityMorgan2,5,0,XGBoost
+FpDensityMorgan3,5,0,XGBoost
+Kappa2,5,0,XGBoost
+MinAbsEStateIndex,5,0,XGBoost
+MinAbsPartialCharge,5,0,XGBoost
+NumAromaticRings,5,0,XGBoost
+NumSaturatedCarbocycles,5,0,XGBoost
+NumSaturatedHeterocycles,5,0,XGBoost
+PEOE_VSA3,5,0,XGBoost
+PEOE_VSA5,5,0,XGBoost
+PEOE_VSA9,5,0,XGBoost
+SMR_VSA4,5,0,XGBoost
+SPS,5,0,XGBoost
+SlogP_VSA3,5,0,XGBoost
+VSA_EState3,5,0,XGBoost
+VSA_EState4,5,0,XGBoost
+VSA_EState5,5,0,XGBoost
+VSA_EState6,5,0,XGBoost
+VSA_EState7,5,0,XGBoost
+VSA_EState8,5,0,XGBoost
+EState_VSA11,4,0,XGBoost
+MaxAbsEStateIndex,4,0,XGBoost
+SMR_VSA2,3,0,XGBoost
+SMR_VSA8,3,0,XGBoost
+SlogP_VSA9,3,0,XGBoost
+NumAliphaticHeterocycles,2,0,XGBoost
+Chi1n,1,0,XGBoost
+Chi2v,1,0,XGBoost
+Chi4v,1,0,XGBoost
+MaxEStateIndex,1,0,XGBoost
+SlogP_VSA6,1,0,XGBoost
+BCUT2D_MRHI,5,5,LightGBM
+BCUT2D_MWHI,5,5,LightGBM
+BalabanJ,5,5,LightGBM
+BertzCT,5,5,LightGBM
+HallKierAlpha,5,5,LightGBM
+MinEStateIndex,5,5,LightGBM
+MolLogP,5,5,LightGBM
+PEOE_VSA6,5,5,LightGBM
+PEOE_VSA8,5,5,LightGBM
+SMR_VSA10,5,5,LightGBM
+VSA_EState2,5,5,LightGBM
+VSA_EState9,5,5,LightGBM
+BCUT2D_MRLOW,5,4,LightGBM
+FractionCSP3,5,4,LightGBM
+MaxPartialCharge,5,4,LightGBM
+PEOE_VSA1,5,4,LightGBM
+PEOE_VSA2,5,4,LightGBM
+SMR_VSA3,5,4,LightGBM
+SMR_VSA6,5,4,LightGBM
+SlogP_VSA2,5,4,LightGBM
+qed,5,4,LightGBM
+AvgIpc,5,3,LightGBM
+BCUT2D_CHGHI,5,3,LightGBM
+BCUT2D_MWLOW,5,3,LightGBM
+MinAbsEStateIndex,5,3,LightGBM
+SlogP_VSA4,5,3,LightGBM
+MaxAbsPartialCharge,3,3,LightGBM
+FpDensityMorgan3,5,2,LightGBM
+PEOE_VSA7,5,2,LightGBM
+VSA_EState5,5,2,LightGBM
+MaxAbsEStateIndex,4,2,LightGBM
+NumHDonors,4,2,LightGBM
+MolWt,3,2,LightGBM
+MinPartialCharge,2,2,LightGBM
+Chi4n,5,1,LightGBM
+EState_VSA10,5,1,LightGBM
+EState_VSA8,5,1,LightGBM
+FpDensityMorgan1,5,1,LightGBM
+FpDensityMorgan2,5,1,LightGBM
+Kappa1,5,1,LightGBM
+Kappa3,5,1,LightGBM
+PEOE_VSA4,5,1,LightGBM
+SlogP_VSA1,5,1,LightGBM
+SlogP_VSA10,5,1,LightGBM
+SlogP_VSA5,5,1,LightGBM
+VSA_EState3,5,1,LightGBM
+VSA_EState4,5,1,LightGBM
+VSA_EState7,5,1,LightGBM
+ExactMolWt,1,1,LightGBM
+MolMR,1,1,LightGBM
+TPSA,1,1,LightGBM
+BCUT2D_CHGLO,5,0,LightGBM
+BCUT2D_LOGPHI,5,0,LightGBM
+BCUT2D_LOGPLOW,5,0,LightGBM
+EState_VSA1,5,0,LightGBM
+EState_VSA2,5,0,LightGBM
+EState_VSA3,5,0,LightGBM
+EState_VSA4,5,0,LightGBM
+EState_VSA5,5,0,LightGBM
+EState_VSA6,5,0,LightGBM
+EState_VSA7,5,0,LightGBM
+EState_VSA9,5,0,LightGBM
+Kappa2,5,0,LightGBM
+MinAbsPartialCharge,5,0,LightGBM
+NumAliphaticCarbocycles,5,0,LightGBM
+NumAliphaticRings,5,0,LightGBM
+NumAromaticCarbocycles,5,0,LightGBM
+NumAromaticHeterocycles,5,0,LightGBM
+NumAromaticRings,5,0,LightGBM
+NumHAcceptors,5,0,LightGBM
+NumHeteroatoms,5,0,LightGBM
+NumRotatableBonds,5,0,LightGBM
+NumSaturatedCarbocycles,5,0,LightGBM
+NumSaturatedHeterocycles,5,0,LightGBM
+NumSaturatedRings,5,0,LightGBM
+PEOE_VSA10,5,0,LightGBM
+PEOE_VSA11,5,0,LightGBM
+PEOE_VSA12,5,0,LightGBM
+PEOE_VSA13,5,0,LightGBM
+PEOE_VSA14,5,0,LightGBM
+PEOE_VSA3,5,0,LightGBM
+PEOE_VSA5,5,0,LightGBM
+PEOE_VSA9,5,0,LightGBM
+RingCount,5,0,LightGBM
+SMR_VSA1,5,0,LightGBM
+SMR_VSA4,5,0,LightGBM
+SMR_VSA7,5,0,LightGBM
+SMR_VSA9,5,0,LightGBM
+SPS,5,0,LightGBM
+SlogP_VSA11,5,0,LightGBM
+SlogP_VSA12,5,0,LightGBM
+SlogP_VSA3,5,0,LightGBM
+SlogP_VSA7,5,0,LightGBM
+SlogP_VSA8,5,0,LightGBM
+VSA_EState1,5,0,LightGBM
+VSA_EState10,5,0,LightGBM
+VSA_EState6,5,0,LightGBM
+VSA_EState8,5,0,LightGBM
+Chi2n,4,0,LightGBM
+Chi3v,4,0,LightGBM
+EState_VSA11,4,0,LightGBM
+NOCount,4,0,LightGBM
+SMR_VSA5,4,0,LightGBM
+Chi1v,3,0,LightGBM
+NumRadicalElectrons,3,0,LightGBM
+SMR_VSA2,3,0,LightGBM
+SMR_VSA8,3,0,LightGBM
+SlogP_VSA9,3,0,LightGBM
+NumAliphaticHeterocycles,2,0,LightGBM
+Chi1n,1,0,LightGBM
+Chi2v,1,0,LightGBM
+Chi4v,1,0,LightGBM
+HeavyAtomMolWt,1,0,LightGBM
+MaxEStateIndex,1,0,LightGBM
+NHOHCount,1,0,LightGBM
+SlogP_VSA6,1,0,LightGBM
